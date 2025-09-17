@@ -108,7 +108,7 @@ function App() {
       .map(item => `- ${item.quantity}x ${item.title} (R$ ${(item.price * item.quantity).toFixed(2)})`)
       .join('\n')}\n\nTotal: R$ ${total.toFixed(2)}`;
 
-    window.open(`https://wa.me/5521973058890?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/5592994431074?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
